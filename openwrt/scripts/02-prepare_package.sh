@@ -14,6 +14,12 @@ git clone https://$github/sbwml/default-settings package/new/default-settings -b
 # luci-app-filemanager
 git clone https://$github/sbwml/luci-app-filemanager package/new/luci-app-filemanager
 
+# OpenClash
+git clone https://$github/vernesong/OpenClash package/new/luci-app-openclash
+
+# luci-app-adguardhome
+git clone https://$github.com/chenmozhijin/luci-app-adguardhome package/new/luci-app-adguardhome
+
 # luci-app-webdav
 git clone https://$github/sbwml/luci-app-webdav package/new/luci-app-webdav
 
