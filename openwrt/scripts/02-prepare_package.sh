@@ -20,6 +20,9 @@ git clone https://$github/vernesong/OpenClash package/new/luci-app-openclash
 # luci-app-adguardhome
 git clone https://$github/kenzok78/luci-app-adguardhome package/new/luci-app-adguardhome
 
+# luci-app-ddns-go
+git clone https://$github/sirpdboy/luci-app-ddns-go package/new/luci-app-ddns-go
+
 # luci-app-webdav
 git clone https://$github/sbwml/luci-app-webdav package/new/luci-app-webdav
 
