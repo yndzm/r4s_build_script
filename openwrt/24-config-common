@@ -62,7 +62,7 @@ CONFIG_PACKAGE_luci-app-dockerman=y
 CONFIG_PACKAGE_luci-lib-docker=y
 CONFIG_PACKAGE_luci-appapp-openclash=y
 CONFIG_PACKAGE_luciapp-adguardhome=y
-CONFIG_PACKAGE_luciCONFIG_PACKAGE_luci-app-luci-app-ddns-go=y
+CONFIG_PACKAGE_luci-app-luci-app-ddns-go=y
 CONFIG_PACKAGE_luci-app-smartdns=y
 
 ### Luci
