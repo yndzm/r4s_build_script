@@ -24,7 +24,7 @@ git clone https://$github/chenmozhijin/luci-app-adguardhome package/new/luci-app
 git clone https://$github/sirpdboy/luci-app-ddns-go package/new/luci-app-ddns-go
 
 # luci-app-lucky
-git clone https://$github/sirpdboy/luci-app-lucky package/new/luci-app-ddns-go
+git clone https://$github/sirpdboy/luci-app-lucky package/new/lucky
 
 # luci-app-webdav
 #git clone https://$github/sbwml/luci-app-webdav package/new/luci-app-webdav
