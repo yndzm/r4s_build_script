@@ -27,7 +27,7 @@ git clone https://$github/chenmozhijin/luci-app-adguardhome package/new/luci-app
 git clone https://$github/sirpdboy/luci-app-ddns-go package/new/luci-app-ddns-go
 
 # luci-app-lucky
-git clone https://$github/sirpdboy/luci-app-lucky package/new/lucky
+git clone https://$github/gdy666/luci-app-lucky package/new/lucky
 
 # luci-app-webdav
 #git clone https://$github/sbwml/luci-app-webdav package/new/luci-app-webdav
@@ -79,15 +79,15 @@ sed -i '/-Dcapng=disabled/i\\t-Dnuma=disabled \\' feeds/packages/utils/irqbalanc
 sed -i '/workgroup/a \\n\t## enable multi-channel' feeds/packages/net/samba4/files/smb.conf.template
 sed -i '/enable multi-channel/a \\tserver multi channel support = yes' feeds/packages/net/samba4/files/smb.conf.template
 # default config
-sed -i 's/#aio read size = 0/aio read size = 0/g' feeds/packages/net/samba4/files/smb.conf.template
-sed -i 's/#aio write size = 0/aio write size = 0/g' feeds/packages/net/samba4/files/smb.conf.template
-sed -i 's/invalid users = root/#invalid users = root/g' feeds/packages/net/samba4/files/smb.conf.template
-sed -i 's/bind interfaces only = yes/bind interfaces only = no/g' feeds/packages/net/samba4/files/smb.conf.template
-sed -i 's/#create mask/create mask/g' feeds/packages/net/samba4/files/smb.conf.template
-sed -i 's/#directory mask/directory mask/g' feeds/packages/net/samba4/files/smb.conf.template
-sed -i 's/0666/0644/g;s/0744/0755/g;s/0777/0755/g' feeds/luci/applications/luci-app-samba4/htdocs/luci-static/resources/view/samba4.js
-sed -i 's/0666/0644/g;s/0777/0755/g' feeds/packages/net/samba4/files/samba.config
-sed -i 's/0666/0644/g;s/0777/0755/g' feeds/packages/net/samba4/files/smb.conf.template
+#sed -i 's/#aio read size = 0/aio read size = 0/g' feeds/packages/net/samba4/files/smb.conf.template
+#sed -i 's/#aio write size = 0/aio write size = 0/g' feeds/packages/net/samba4/files/smb.conf.template
+#sed -i 's/invalid users = root/#invalid users = root/g' feeds/packages/net/samba4/files/smb.conf.template
+#sed -i 's/bind interfaces only = yes/bind interfaces only = no/g' feeds/packages/net/samba4/files/smb.conf.template
+#sed -i 's/#create mask/create mask/g' feeds/packages/net/samba4/files/smb.conf.template
+#sed -i 's/#directory mask/directory mask/g' feeds/packages/net/samba4/files/smb.conf.template
+#sed -i 's/0666/0644/g;s/0744/0755/g;s/0777/0755/g' feeds/luci/applications/luci-app-samba4/htdocs/luci-static/resources/view/samba4.js
+#sed -i 's/0666/0644/g;s/0777/0755/g' feeds/packages/net/samba4/files/samba.config
+#sed -i 's/0666/0644/g;s/0777/0755/g' feeds/packages/net/samba4/files/smb.conf.template
 # rk3568 bind cpus
 #[ "$platform" = "rk3568" ] && sed -i 's#/usr/sbin/smbd -F#/usr/bin/taskset -c 1,0 /usr/sbin/smbd -F#' feeds/packages/net/samba4/files/samba.init
 
